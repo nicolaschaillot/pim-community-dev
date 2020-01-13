@@ -6,11 +6,6 @@ Feature: Export products according to multi select reference data values
 
   Background:
     Given the "footwear" catalog configuration
-    And the following reference data:
-      | type   | code         | label        |
-      | fabric | cashmerewool | Cashmerewool |
-      | fabric | neoprene     |              |
-      | fabric | silk         | Silk         |
     And the following products:
       | sku    | family | name-en_US | sole_fabric            | categories      |
       | HEEL-1 | heels  | The heel 1 | cashmerewool           | 2014_collection |
