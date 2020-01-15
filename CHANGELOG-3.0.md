@@ -1,5 +1,9 @@
 # 3.0.x
 
+## Bug fixes
+
+- PIM-6160: Fix update of 'unique' property in attribute updater when updating both unique and type properties
+
 # 3.0.63 (2020-01-10)
 
 ## Bug fixes
